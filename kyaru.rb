@@ -10,4 +10,9 @@ bot.message(with_text: 'kyaru') do |event|
   event.respond '殺すぞ……！？'
 end
 
+# peco という発言があったらそのチャンネルで ヤバいですね☆ と発言する
+bot.message(with_text: 'peco') do |event|
+  event.respond 'ヤバいですね☆'
+end
+
 bot.run
